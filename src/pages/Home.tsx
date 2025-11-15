@@ -10,10 +10,10 @@ import { Textarea } from "../components/common/Textarea";
 export function Home() {
   const [isEditingProfile, setIsEditingProfile] = useState(false);
   const [profile, setProfile] = useState({
-    name: "João da Silva",
-    title: "Estudante de Desenvolvimento de Sistemas",
+    name: "Luiz Roberto Briz Quirino",
+    title: "Análise e Desenvolvimento de Sistemas",
     description: "Apaixonado por tecnologia e desenvolvimento de software. Atualmente cursando Desenvolvimento de Sistemas, com foco em criar soluções inovadoras e funcionais que impactem positivamente a vida das pessoas.",
-    location: "São Paulo, SP",
+    location: "São José dos Campos, SP",
     status: "Disponível para estágio",
     aboutMe: "Sou estudante de Desenvolvimento de Sistemas com grande interesse em tecnologias web modernas e desenvolvimento mobile. Tenho experiência prática em projetos acadêmicos e pessoais que envolvem programação, design de interfaces e resolução de problemas complexos.\n\nBusco constantemente aprimorar minhas habilidades técnicas e interpessoais, participando de cursos, workshops e eventos da área. Meu objetivo é contribuir para projetos inovadores e fazer parte de uma equipe que valoriza o aprendizado contínuo e a excelência técnica.",
   });
